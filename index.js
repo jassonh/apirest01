@@ -3,8 +3,8 @@ AWS.config.update( {
   region: 'us-east-2'
 });
 const dynamodb = new AWS.DynamoDB.DocumentClient();
-const dynamodbTableName = 'prueba01';
-const header = '/health';
+const dynamodbTableName = 'alumnos';
+const header = '/resource01';
 const alumnoPath = '/alumno';
 const alumnosPath = '/alumnos';
 
